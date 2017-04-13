@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#880e4f</color>
+    <color name="colorPrimaryDark">#560027</color>
+    <color name="colorAccent">#f48fb1</color>
+    <color name="secondary_text">#727272</color>
+    <color name="primary_text">#DE000000</color>
+    <color name="recycler_view_background">#FAFAFA</color>
+    <color name="red">#FF0000</color>
+    <color name="ripple_color">#fce4ec</color>
+
+    <!-- cores do texto do botão -->
+    <color name="button_text">#FFFFFF</color>
+    <color name="button_text_disabled">#42000000</color><!--26% de #000000-->
+
+    <!-- cores de fundo dos estados do botão -->
+    <color name="button_background_disabled_shade_black">#1E000000</color><!-- 12% de #000000-->
+    <!-- precisa ser aplicado por cima da cor do botão no estado focused. O arquivo button_background_selector
+    mostra como fazer isso -->
+    <color name="button_background_focused_shade_black">#1E000000</color><!-- 12% de #000000-->
+    <color name="button_background">@color/colorPrimary</color>
+</resources>

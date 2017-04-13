@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="toolbar_title_left_padding">72dp</dimen>
+    <dimen name="toolbar_shadow_height">4dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="list_icon">40dp</dimen>
+    <dimen name="list_item_extra_padding">0dp</dimen>
+    <dimen name="details_app_bar_overlap">24dp</dimen>
+    <dimen name="detail_card_elevation">6dp</dimen>
+    <dimen name="list_item_left_padding">72dp</dimen>
+    <dimen name="list_icon_left_padding">16dp</dimen>
+    <dimen name="list_item_top_padding">8dp</dimen>
+</resources>

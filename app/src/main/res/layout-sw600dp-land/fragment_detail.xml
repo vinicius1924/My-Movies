@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vinicius.mymovies.DetailFragment">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/movieTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                tools:text="Logan (2017)"
+                android:textColor="@color/primary_text"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/abc_list_item_padding_horizontal_material"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin">
+
+                <TextView
+                    android:id="@+id/movieGenre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textColor="@color/secondary_text"
+                    tools:text="Action|Drama|Sci-fi"/>
+
+                <TextView
+                    android:id="@+id/movieRuntime"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textColor="@color/secondary_text"
+                    tools:text="137min"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/moviePlot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                tools:text="In the near future"
+                android:textColor="@color/primary_text"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/activity_horizontal_margin">
+
+                <ImageView
+                    android:id="@+id/moviePoster"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    tools:src="@drawable/image_placeholder"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/activity_horizontal_margin">
+
+                    <TextView
+                        android:id="@+id/movieReleaseDateLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:textColor="@color/primary_text"
+                        android:text="@string/release_date"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/movieReleaseDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        tools:text="09 Feb 2011"
+                        android:textColor="@color/primary_text"/>
+
+                    <TextView
+                        android:id="@+id/movieDirectorLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:textColor="@color/primary_text"
+                        android:text="@string/director"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/movieDirector"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        tools:text="Ridley Scott"
+                        android:textColor="@color/primary_text"/>
+
+                    <TextView
+                        android:id="@+id/movieActorsLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:textColor="@color/primary_text"
+                        android:text="@string/actors"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/movieActors"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        tools:text="Anthony Hopkins, Julianne Moore, Gary Oldman, Ray Liotta"
+                        android:textColor="@color/primary_text"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
